@@ -1,0 +1,398 @@
+{
+  "_note": "フロント実装用モック。同一ユーザー(ゆいち)のLv1/Lv3/Lv5と、口調も文量も真逆のメンバー(みか)のLv5を収録。みかは長文・丁寧語なのでレイアウト耐性テストに使うこと。",
+  "cards": [
+    {
+      "schema_version": "1.0",
+      "persona_id": "psn_yuichi",
+      "user_id": "usr_yuichi",
+      "group_id": "grp_z9",
+      "version": 1,
+      "level": 1,
+      "generated_at": "2026-08-10T09:00:00Z",
+      "source_stats": { "answer_count": 4, "respondent_count": 3, "self_answer_count": 2 },
+      "identity": {
+        "name": "ゆいち",
+        "catchphrase": "とりあえず行ってから考える人",
+        "first_person": "うち",
+        "second_person": "あんた",
+        "voice": {
+          "endings": ["〜やん", "〜やって", "〜ねん"],
+          "style": "短文・早口・照れると小声になる",
+          "emoji_policy": "few",
+          "samples": [
+            "え、行く行く。今から行く",
+            "いや別に気にしてへんし……気にしてるけど"
+          ]
+        }
+      },
+      "traits": [
+        {
+          "id": "tr_1",
+          "label": "即決",
+          "statement": "うち、考える前に足が動いてるらしいねん",
+          "consensus": "majority",
+          "agree_count": 2,
+          "respondent_count": 3,
+          "polarity": "positive",
+          "evidence_ids": ["ev_3", "ev_8"],
+          "respondents": ["みか", "そう"]
+        }
+      ],
+      "values": [],
+      "likes": [],
+      "dislikes": [],
+      "gap": null,
+      "solo_views": [],
+      "split_views": [],
+      "episodes": [],
+      "self_intro": null,
+      "oshi_points": ["決断が異常に速い"],
+      "open_questions": [
+        { "id": "oq_1", "text": "うちが何好きなんか、まだ誰も教えてくれてないねん" },
+        { "id": "oq_2", "text": "苦手なもんも謎のままやわ" }
+      ],
+      "level_up_diff": null
+    },
+    {
+      "schema_version": "1.0",
+      "persona_id": "psn_yuichi",
+      "user_id": "usr_yuichi",
+      "group_id": "grp_z9",
+      "version": 3,
+      "level": 3,
+      "generated_at": "2026-08-18T09:00:00Z",
+      "source_stats": { "answer_count": 21, "respondent_count": 4, "self_answer_count": 7 },
+      "identity": {
+        "name": "ゆいち",
+        "catchphrase": "とりあえず行ってから考える人",
+        "first_person": "うち",
+        "second_person": "あんた",
+        "voice": {
+          "endings": ["〜やん", "〜やって", "〜ねん"],
+          "style": "短文・早口・照れると小声になる",
+          "emoji_policy": "few",
+          "samples": [
+            "え、行く行く。今から行く",
+            "いや別に気にしてへんし……気にしてるけど",
+            "は？ 今の褒めてるんやけど"
+          ]
+        }
+      },
+      "traits": [
+        {
+          "id": "tr_1",
+          "label": "即決",
+          "statement": "うち、考える前に足が動いてるらしいねん",
+          "consensus": "all",
+          "agree_count": 4,
+          "respondent_count": 4,
+          "polarity": "positive",
+          "evidence_ids": ["ev_3", "ev_8", "ev_12", "ev_20"],
+          "respondents": ["みか", "そう", "けい", "りん"]
+        },
+        {
+          "id": "tr_4",
+          "label": "世話焼き",
+          "statement": "人が困ってると勝手に体が動いてまうねん",
+          "consensus": "majority",
+          "agree_count": 3,
+          "respondent_count": 4,
+          "polarity": "positive",
+          "evidence_ids": ["ev_5", "ev_14", "ev_19"],
+          "respondents": ["みか", "けい", "りん"]
+        },
+        {
+          "id": "tr_7",
+          "label": "予定を詰めすぎる",
+          "statement": "断られへんくて土日いつも埋まってるわ",
+          "consensus": "majority",
+          "agree_count": 3,
+          "respondent_count": 4,
+          "polarity": "quirk",
+          "evidence_ids": ["ev_9", "ev_17", "ev_21"],
+          "respondents": ["そう", "けい", "りん"]
+        }
+      ],
+      "values": [
+        {
+          "id": "vl_1",
+          "statement": "誘われたら行く。それが一番やと思ってる",
+          "consensus": "majority",
+          "evidence_ids": ["ev_11"]
+        }
+      ],
+      "likes": [
+        { "id": "lk_1", "label": "深夜のドライブ", "statement": "深夜のドライブ。誰もおらん道が一番落ち着くねん", "evidence_ids": ["ev_6"] },
+        { "id": "lk_2", "label": "サウナ", "statement": "サウナ。入らんと週が終わらん", "evidence_ids": ["ev_16"] }
+      ],
+      "dislikes": [
+        { "id": "dl_1", "label": "予定を詰められること", "statement": "先の予定決められるのだけは無理。なんでやろな", "evidence_ids": ["ev_10"] }
+      ],
+      "gap": {
+        "self_declared": "自分では慎重派だと思っている",
+        "others_say": "4人中3人が『一番先に走り出す』と回答",
+        "punchline": "うち慎重派やと思ってたんやけど、4人中3人が『一番に走り出す』って言うてるらしくて。……え、そう？",
+        "surprise_level": 4
+      },
+      "solo_views": [],
+      "split_views": [],
+      "episodes": [
+        {
+          "id": "ep_1",
+          "summary": "終電を逃した友人を、文句を言いながら迎えに行った",
+          "told_by": "みか",
+          "trait_ids": ["tr_4"]
+        }
+      ],
+      "self_intro": null,
+      "oshi_points": ["困ってる人を放っておけない", "誘えば絶対来る", "決断が異常に速い"],
+      "open_questions": [
+        { "id": "oq_5", "text": "なんで深夜のドライブが好きなんかは、まだ誰にも言うてへんわ" }
+      ],
+      "level_up_diff": {
+        "from_version": 2,
+        "added_trait_ids": ["tr_7"],
+        "strengthened_trait_ids": ["tr_1"],
+        "new_episode_ids": ["ep_1"],
+        "unlocked_slots": ["gap"],
+        "message": "みんなの回答で、うちの新しい一面が分かったみたい"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "persona_id": "psn_yuichi",
+      "user_id": "usr_yuichi",
+      "group_id": "grp_z9",
+      "version": 5,
+      "level": 5,
+      "generated_at": "2026-08-29T09:00:00Z",
+      "source_stats": { "answer_count": 38, "respondent_count": 4, "self_answer_count": 12 },
+      "identity": {
+        "name": "ゆいち",
+        "catchphrase": "とりあえず行ってから考える人",
+        "first_person": "うち",
+        "second_person": "あんた",
+        "voice": {
+          "endings": ["〜やん", "〜やって", "〜ねん"],
+          "style": "短文・早口・照れると小声になる",
+          "emoji_policy": "few",
+          "samples": [
+            "え、行く行く。今から行く",
+            "いや別に気にしてへんし……気にしてるけど",
+            "は？ 今の褒めてるんやけど",
+            "……まあ、無理だけはせんとってな"
+          ]
+        }
+      },
+      "traits": [
+        {
+          "id": "tr_1",
+          "label": "即決",
+          "statement": "うち、考える前に足が動いてるらしいねん",
+          "consensus": "all",
+          "agree_count": 4,
+          "respondent_count": 4,
+          "polarity": "positive",
+          "evidence_ids": ["ev_3", "ev_8", "ev_12", "ev_20"],
+          "respondents": ["みか", "そう", "けい", "りん"]
+        },
+        {
+          "id": "tr_4",
+          "label": "世話焼き",
+          "statement": "人が困ってると勝手に体が動いてまうねん",
+          "consensus": "all",
+          "agree_count": 4,
+          "respondent_count": 4,
+          "polarity": "positive",
+          "evidence_ids": ["ev_5", "ev_14", "ev_19", "ev_33"],
+          "respondents": ["みか", "そう", "けい", "りん"]
+        },
+        {
+          "id": "tr_7",
+          "label": "予定を詰めすぎる",
+          "statement": "断られへんくて土日いつも埋まってるわ",
+          "consensus": "majority",
+          "agree_count": 3,
+          "respondent_count": 4,
+          "polarity": "quirk",
+          "evidence_ids": ["ev_9", "ev_17", "ev_21"],
+          "respondents": ["そう", "けい", "りん"]
+        },
+        {
+          "id": "tr_11",
+          "label": "実は心配性",
+          "statement": "行く前に3回くらい持ち物確認してるの、バレてるらしい",
+          "consensus": "majority",
+          "agree_count": 3,
+          "respondent_count": 4,
+          "polarity": "quirk",
+          "evidence_ids": ["ev_28", "ev_31", "ev_35"],
+          "respondents": ["みか", "けい", "りん"]
+        }
+      ],
+      "values": [
+        { "id": "vl_1", "statement": "誘われたら行く。それが一番やと思ってる", "consensus": "majority", "evidence_ids": ["ev_11"] },
+        { "id": "vl_3", "statement": "困ってる人おったら、理由とか聞かんと動く", "consensus": "all", "evidence_ids": ["ev_33"] }
+      ],
+      "likes": [
+        { "id": "lk_1", "label": "深夜のドライブ", "statement": "深夜のドライブ。誰もおらん道が一番落ち着くねん", "evidence_ids": ["ev_6"] },
+        { "id": "lk_2", "label": "サウナ", "statement": "サウナ。入らんと週が終わらん", "evidence_ids": ["ev_16"] },
+        { "id": "lk_5", "label": "コンビニの新商品", "statement": "コンビニの新商品、全部試さんと気がすまんねん", "evidence_ids": ["ev_29"] }
+      ],
+      "dislikes": [
+        { "id": "dl_1", "label": "予定を詰められること", "statement": "先の予定決められるのだけは無理。なんでやろな", "evidence_ids": ["ev_10"] },
+        { "id": "dl_2", "label": "沈黙", "statement": "静かになるとしゃべり出してまう。うるさいのは自覚あるわ", "evidence_ids": ["ev_24"] }
+      ],
+      "gap": {
+        "self_declared": "自分では慎重派だと思っている",
+        "others_say": "4人中3人が『一番先に走り出す』と回答",
+        "punchline": "うち慎重派やと思ってたんやけど、4人中3人が『一番に走り出す』って言うてるらしくて。……え、そう？",
+        "surprise_level": 4
+      },
+      "solo_views": [
+        {
+          "id": "sv_1",
+          "respondent": "そう",
+          "their_view": "物静かで落ち着いてる子",
+          "everyone_else": "3人とも『騒がしい』と回答",
+          "their_reason": "二人で喋るときはいつも聞き役だから",
+          "punchline": "そうだけ、うちのこと『物静か』って言うねん。……あいつの前だけ大人しくなってるんかな、うち",
+          "polarity": "positive",
+          "evidence_ids": ["ev_15"]
+        },
+        {
+          "id": "sv_2",
+          "respondent": "りん",
+          "their_view": "実は一番先に帰りたがってる",
+          "everyone_else": "3人とも『最後まで残る』と回答",
+          "their_reason": "帰り道が同じだから、そわそわしてるのが見える",
+          "punchline": "りんだけ『こいつ早よ帰りたがってる』って言うねん。なんでバレてんの",
+          "polarity": "quirk",
+          "evidence_ids": ["ev_36"]
+        }
+      ],
+      "split_views": [
+        {
+          "id": "sp_1",
+          "topic": "怒ったときどうなる",
+          "sides": [
+            { "view": "黙り込む", "respondents": ["みか", "けい"] },
+            { "view": "めっちゃ喋る", "respondents": ["そう", "りん"] }
+          ],
+          "punchline": "怒ったときのうち、2対2で真っ二つらしい。どっちが本当なん？"
+        }
+      ],
+      "episodes": [
+        { "id": "ep_1", "summary": "終電を逃した友人を、文句を言いながら迎えに行った", "told_by": "みか", "trait_ids": ["tr_4"] },
+        { "id": "ep_3", "summary": "旅行前日に持ち物リストを3回作り直していた", "told_by": "りん", "trait_ids": ["tr_11"] }
+      ],
+      "self_intro": "うち、ゆいち。周りに聞いたら『一番に動く人』らしいねん。自分では考えてから動いてるつもりやったんやけどな。あと、人が困ってると勝手に体が動くって全員に言われた。うるさいって思われてるかと思っててんけど、そうでもないんかな。……まあ、そういうことにしとくわ。",
+      "oshi_points": ["困ってる人を放っておけない", "誘えば絶対来る", "決断が異常に速い"],
+      "open_questions": [
+        { "id": "oq_9", "text": "なんで深夜のドライブが好きなんかは、まだ誰にも言うてへんわ" }
+      ],
+      "level_up_diff": {
+        "from_version": 4,
+        "added_trait_ids": ["tr_11"],
+        "strengthened_trait_ids": ["tr_4"],
+        "new_episode_ids": ["ep_3"],
+        "unlocked_slots": ["free_word"],
+        "message": "そうとりんが、うちの知らん一面を教えてくれたみたい"
+      }
+    },
+    {
+      "_note": "レイアウト耐性テスト用。丁寧語・長文・語尾が長いキャラ。ゆいちと同じ枠に収まるか確認すること。",
+      "schema_version": "1.0",
+      "persona_id": "psn_mika",
+      "user_id": "usr_mika",
+      "group_id": "grp_z9",
+      "version": 5,
+      "level": 5,
+      "generated_at": "2026-08-29T09:00:00Z",
+      "source_stats": { "answer_count": 36, "respondent_count": 4, "self_answer_count": 11 },
+      "identity": {
+        "name": "みかちゃん",
+        "catchphrase": "全部見てるけど何も言わない人",
+        "first_person": "わたし",
+        "second_person": "きみたち",
+        "voice": {
+          "endings": ["〜なんですよね", "〜かなって", "〜だと思います"],
+          "style": "丁寧語・一文が長い・言い切らずに濁す",
+          "emoji_policy": "none",
+          "samples": [
+            "うーん、それはちょっと違うかなって思うんですけど、まあいいです",
+            "気づいてましたよ、ずっと前から。言わなかっただけで"
+          ]
+        }
+      },
+      "traits": [
+        {
+          "id": "tr_21",
+          "label": "観察眼",
+          "statement": "わたし、けっこう全部見えてるんですよね。言わないだけで",
+          "consensus": "all",
+          "agree_count": 4,
+          "respondent_count": 4,
+          "polarity": "positive",
+          "evidence_ids": ["ev_41", "ev_45"],
+          "respondents": ["ゆいち", "そう", "けい", "りん"]
+        },
+        {
+          "id": "tr_23",
+          "label": "自分の話をしない",
+          "statement": "自分のことを話すタイミングが、いつのまにか過ぎてるんです",
+          "consensus": "majority",
+          "agree_count": 3,
+          "respondent_count": 4,
+          "polarity": "quirk",
+          "evidence_ids": ["ev_47", "ev_50"],
+          "respondents": ["ゆいち", "けい", "りん"]
+        }
+      ],
+      "values": [
+        { "id": "vl_11", "statement": "場が丸くおさまるなら、わたしは黙ってていいと思ってます", "consensus": "majority", "evidence_ids": ["ev_44"] }
+      ],
+      "likes": [
+        { "id": "lk_11", "label": "喫茶店で人を眺めること", "statement": "喫茶店でひとり、他人を眺めてる時間がいちばん好きなんですよね", "evidence_ids": ["ev_42"] }
+      ],
+      "dislikes": [
+        { "id": "dl_11", "label": "話の中心になること", "statement": "みんなに注目されると、たぶん一言もしゃべれなくなります", "evidence_ids": ["ev_48"] }
+      ],
+      "gap": {
+        "self_declared": "自分では social で人見知りしないと思っている",
+        "others_say": "4人全員が『自分から話しかけてこない』と回答",
+        "punchline": "わたし、人見知りしない方だと思ってたんですけど、4人全員に『自分からは来ない』って言われました。……そうでしたか",
+        "surprise_level": 5
+      },
+      "solo_views": [
+        {
+          "id": "sv_11",
+          "respondent": "ゆいち",
+          "their_view": "実はいちばんうるさい",
+          "everyone_else": "3人とも『静か』と回答",
+          "their_reason": "ふたりで車乗ってるとき、ずっと喋ってるから",
+          "punchline": "ゆいちだけ『みかが一番うるさい』って言ってるらしいです。……あれは、ゆいちが聞くからですけど",
+          "polarity": "positive",
+          "evidence_ids": ["ev_52"]
+        }
+      ],
+      "split_views": [],
+      "episodes": [
+        { "id": "ep_11", "summary": "誰も気づいていない体調不良を見抜いて、黙って飲み物を買ってきた", "told_by": "けい", "trait_ids": ["tr_21"] }
+      ],
+      "self_intro": "みかです。周りからは静かだとか、何を考えてるか分からないとか言われるみたいなんですけど、わりと全部見てるつもりではいます。自分から話しかけないのは、たぶん必要ないと思ってるからで。……でも4人全員に言われると、ちょっと考えますね。",
+      "oshi_points": ["人の変化に最初に気づく", "何も言わずに助けてくれる", "実は一番よく喋る相手がいる"],
+      "open_questions": [
+        { "id": "oq_11", "text": "わたしが何をされると嬉しいかは、まだ誰にも聞かれてないですね" }
+      ],
+      "level_up_diff": {
+        "from_version": 4,
+        "added_trait_ids": ["tr_23"],
+        "strengthened_trait_ids": ["tr_21"],
+        "new_episode_ids": ["ep_11"],
+        "unlocked_slots": ["free_word"],
+        "message": "ゆいちが、わたしの知らない一面を教えてくれたみたいです"
+      }
+    }
+  ]
+}
